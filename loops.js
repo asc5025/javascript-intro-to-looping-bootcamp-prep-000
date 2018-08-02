@@ -16,8 +16,8 @@ function whileLoop(number) {
   return 'done';
 }
 
-function doWhileLoop(arry) {
+function doWhileLoop(array) {
   do {
     array.pop();
-  } while (arry.length > 0 || maybeTrue());
-} return arry;
+  } while (array.length > 0 || maybeTrue());
+} return array;
