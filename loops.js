@@ -15,3 +15,9 @@ function whileLoop(number) {
   }
   return 'done';
 }
+
+function doWhileLoop(arry) {
+  do {
+    array.pop();
+  } while (arry.length > 0 || maybeTrue());
+} return arry;
